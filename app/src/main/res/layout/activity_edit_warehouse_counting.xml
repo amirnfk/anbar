@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.EditWarehouseCountingActivity"
+    android:background="@color/Gray4"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/WideLineSidePadding"
+            android:paddingLeft="@dimen/WideLineSidePadding">
+            <TextView
+                android:id="@+id/tvItemID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginLeft="0dp"
+                android:text="كد كالا"
+                android:textColor="@color/Gray"
+                android:layout_marginTop="0dp"/>
+            <TextView
+                android:id="@+id/tvItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginLeft="0dp"
+                android:text="كد كالا"
+                android:textColor="@color/Gray"
+                android:layout_marginTop="0dp"/>
+
+        </LinearLayout>
+        <View
+            style="@style/Divider2"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/WideLineSidePadding"
+            android:paddingLeft="@dimen/WideLineSidePadding">
+            <TextView
+                android:id="@+id/tvUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginLeft="0dp"
+                android:text="تعداد"
+                android:textColor="@color/Gray"
+                android:layout_marginTop="0dp"/>
+            <fragment
+                android:id="@+id/numericUpDownFragment"
+                android:name="com.oshanak.mobilemarket.Activity.Common.NumericUpDownFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/numeric_up_down_fragment"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="@dimen/WideButtonPaddingLeft"
+                android:layout_margin="@dimen/WideButtonPaddingRight"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button_back2"
+                    android:onClick="onClickExit"
+                    android:text="خروج"
+                    android:textColor="@drawable/button_back2" />
+
+                <Button
+                    android:id="@+id/bConfirm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button_back2"
+                    android:onClick="onClickConfirm"
+                    android:text="اصلاح"
+                    android:textColor="@drawable/button_back2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

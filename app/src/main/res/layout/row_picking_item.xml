@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="0dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:id="@+id/lytback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_marginTop="1dp"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="horizontal">
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/tvArticleCode"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:text="كد"-->
+            <!--            android:gravity="right"-->
+            <!--            android:textColor="@color/Black"-->
+            <!--            android:layout_marginLeft="5dp"-->
+            <!--            android:layout_marginRight="5dp">-->
+            <!--        </TextView>-->
+            <TextView
+                android:id="@+id/tvRowCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/iransansbold"
+                android:gravity="right"
+                android:text="شماره:"
+                android:textColor="@color/grey_80"
+                android:textSize="14sp"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_marginTop="1dp"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvInventory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:fontFamily="@font/iransansregular"
+                android:gravity="right"
+                android:text="موجودي"
+                android:textColor="@color/grey_700"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/tvPositionNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:fontFamily="@font/iransansregular"
+                android:gravity="right"
+                android:text="موقعيت"
+                android:textColor="@color/grey_700"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_marginTop="1dp"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvPickingQuantity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/iransansbold"
+                    android:gravity="right"
+                    android:text="تحويل"
+                    android:textColor="@color/grey_700"
+                    android:textSize="12sp"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvOrderQuantity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/iransansbold"
+                    android:gravity="right"
+                    android:text="سفارش"
+                    android:textColor="@color/grey_700"
+                    android:textSize="12sp"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_is_pc_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/yekan"
+            android:textColor="@color/grey_700"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:descendantFocusability="blocksDescendants"
+            android:gravity="right"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/bConfirm"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="?selectableItemBackgroundBorderless"
+                android:drawableBottom="@drawable/checkmark"
+
+                android:textColor="@color/Green"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/bReject"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="16dp"
+
+                android:layout_marginEnd="16dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:drawableRight="@drawable/reject"
+                android:gravity="center"
+                android:textColor="@color/Green"
+                app:layout_constraintEnd_toStartOf="@+id/bEdit"
+                app:layout_constraintStart_toEndOf="@+id/bConfirm" />
+
+            <Button
+                android:id="@+id/bEdit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="?selectableItemBackgroundBorderless"
+                android:drawableRight="@drawable/edit2"
+                android:drawableTint="@color/HaftOrange"
+                android:gravity="center"
+                android:textColor="@color/Green"
+                app:layout_constraintBaseline_toBaselineOf="@+id/bReject"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

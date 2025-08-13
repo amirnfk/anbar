@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layoutDirection="ltr"
+    tools:context=".Activity.Activity.MainMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <TextView
+
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:padding="5dp"
+            android:text="كاربر محترم، خوش آمديد"
+            android:textColor="@color/Gray" />
+
+        <LinearLayout
+            android:id="@+id/lProductControl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="visible">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/box"
+                android:gravity="right|center"
+                android:onClick="onProductControl"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="كنترل كالا"
+                android:textColor="@drawable/button_back2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lWarehousing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="visible">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/warehouse"
+                android:enabled="true"
+                android:gravity="right|center"
+                android:onClick="onClickWarehousing"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="انبارگرداني"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lDeliverOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="visible">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/deliverorder"
+                android:gravity="right|center"
+                android:onClick="onClickDeliverOrder"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="تحويل دو مرحله اي سفارش"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="visible">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/return_order"
+                android:gravity="right|center"
+                android:onClick="onClickReturn"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="برگشت كالا"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="gone">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/return_product"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="برگشت كالا به انبار"
+                android:textColor="@drawable/button_back2" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/take"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="دريافت كالا با سفارش"
+                android:textColor="@drawable/button_back2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="gone">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/order"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ثبت سفارش(مستقيم)"
+                android:textColor="@drawable/button_back2" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/product2"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="دريافت كالا(مستقيم)"
+                android:textColor="@drawable/button_back2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="gone">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/garbage"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ثبت ضايعات"
+                android:textColor="@drawable/button_back2" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/barcode"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="چاپ باركد كالا"
+                android:textColor="@drawable/button_back2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="gone">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/info"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="اطلاعات"
+                android:textColor="@drawable/button_back2" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/order2"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ثبت سفارش از انبار"
+                android:textColor="@drawable/button_back2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lCompetitorList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:visibility="visible">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/product1"
+                android:gravity="right|center"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="تحويل كالا"
+                android:textColor="@drawable/button_back2"
+                android:visibility="gone" />
+            <!--<Space-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1" />-->
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/boxing"
+                android:gravity="right|center"
+                android:onClick="onCompetitorList"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="محصولات رقيب"
+                android:textColor="@drawable/button_back2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lPhoneDelivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/deliver"
+                android:gravity="right|center"
+                android:onClick="onDeliverOrder"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="تحويل سفارش"
+                android:textColor="@drawable/button_back2" />
+            <!--<Space-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1" />-->
+            <!--            <Button-->
+            <!--                android:text="محصولات رقيب"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="50"-->
+            <!--                android:gravity="right|center"-->
+            <!--                android:background="@drawable/button_back2"-->
+            <!--                android:layout_margin="0dp"-->
+            <!--                android:textColor="@drawable/button_back2"-->
+            <!--                android:drawableLeft="@drawable/boxing"-->
+            <!--                android:paddingTop="@dimen/WideButtonPaddingTop"-->
+            <!--                android:paddingBottom="@dimen/WideButtonPaddingBottom"-->
+            <!--                android:paddingLeft="@dimen/WideButtonPaddingLeft"-->
+            <!--                android:paddingRight="@dimen/WideButtonPaddingRight"-->
+            <!--                android:onClick="onCompetitorList"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lPickingOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/box2"
+                android:gravity="right|center"
+                android:onClick="onPickingOrder"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="جمع آوري سفارش"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lCollectorChecking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/checklist"
+                android:gravity="right|center"
+                android:onClick="onCollectorChecking"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ناظر جمع آوری"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lWarehouseCounting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/counting"
+                android:gravity="right|center"
+                android:onClick="onWarehouseCounting"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="کنترل موجودی"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lGarbageProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/garbage2"
+                android:gravity="right|center"
+                android:onClick="onGarbageProduct"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ثبت ضايعات"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lPrintBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/barcode2"
+                android:enabled="true"
+                android:gravity="right|center"
+                android:onClick="onPrintBarcode"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="چاپ باركد كالا"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lDirectProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/truck"
+                android:enabled="true"
+                android:gravity="right|center"
+                android:onClick="onDirectProduct"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="دريافت مستقيم كالا"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lWarehouseOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/warehouse2"
+                android:gravity="right|center"
+                android:onClick="onWarehouseOrder"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ثبت سفارش از انبار"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lStoreDirectRelation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/letter"
+                android:gravity="right|center"
+                android:onClick="onDirectRelation"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ارتباط مستقيم فروشگاه"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lPresentation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/fingerprint"
+                android:gravity="right|center"
+                android:onClick="onPresentation"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ثبت حضور همكاران"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/promotions_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/discount"
+                android:gravity="right|center"
+                android:onClick="onPromotionListClicked"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="لیست پروموشن"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Docs_Upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="50"
+                android:background="@drawable/button_back2"
+                android:drawableLeft="@drawable/image_doc"
+                android:gravity="right|center"
+                android:onClick="on_Docs_Uploade_Clicked"
+                android:paddingLeft="@dimen/WideButtonPaddingLeft"
+                android:paddingTop="@dimen/WideButtonPaddingTop"
+                android:paddingRight="@dimen/WideButtonPaddingRight"
+                android:paddingBottom="@dimen/WideButtonPaddingBottom"
+                android:text="ثبت مستندات"
+                android:textColor="@drawable/button_back2"
+                android:visibility="visible" />
+        </LinearLayout>
+        <!--        <EditText-->
+        <!--            style="@style/EditTextStyleNormal1"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:inputType="textMultiLine"-->
+        <!--            android:ems="10"-->
+        <!--            android:id="@+id/etName"-->
+        <!--            android:maxLength="10000"-->
+        <!--            android:ellipsize="middle"-->
+        <!--            android:hint=""-->
+        <!--            android:text=""/>-->
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:gravity="center"-->
+        <!--            android:padding="1dp">-->
+        <!--            <Space-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="25" />-->
+        <!--            <Button-->
+        <!--                android:text="خروج"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="50"-->
+        <!--                android:gravity="right|center"-->
+        <!--                android:id="@+id/bExit1"-->
+        <!--                android:background="@drawable/button_back2"-->
+        <!--                android:layout_margin="0dp"-->
+        <!--                android:textColor="@drawable/button_back2"-->
+        <!--                android:paddingTop="@dimen/WideButtonPaddingTop"-->
+        <!--                android:paddingBottom="@dimen/WideButtonPaddingBottom"-->
+        <!--                android:paddingLeft="@dimen/WideButtonPaddingLeft"-->
+        <!--                android:paddingRight="@dimen/WideButtonPaddingRight" />-->
+        <!--            <Space-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="25" />-->
+        <!--        </LinearLayout>-->
+    </LinearLayout>
+</ScrollView>

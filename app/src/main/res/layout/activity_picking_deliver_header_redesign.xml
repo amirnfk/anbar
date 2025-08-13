@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_100"
+    android:layoutDirection="ltr">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collaps1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Theme.MaterialComponents"
+            app:contentScrim="@color/Cyan1"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="56dp"
+                    android:background="@color/Cyan1"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0dp"
+                        android:orientation="vertical"
+                        android:padding="0dp"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:paddingLeft="@dimen/WideLineSidePadding"
+                                android:paddingRight="@dimen/WideLineSidePadding">
+
+                                <fragment
+                                    android:id="@+id/frDateFrom"
+                                    android:name="com.oshanak.mobilemarket.Activity.Common.DateFragment"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    tools:layout="@layout/fragment_date" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:orientation="horizontal"
+                                android:paddingLeft="@dimen/WideLineSidePadding"
+                                android:paddingRight="@dimen/WideLineSidePadding">
+
+                                <fragment
+                                    android:id="@+id/frDateTo"
+                                    android:name="com.oshanak.mobilemarket.Activity.Common.DateFragment"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    tools:layout="@layout/fragment_date" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:background="@color/Cyan1"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+                            <!--            <ImageButton-->
+                            <!--                android:id="@+id/ibMinimize"-->
+                            <!--                android:layout_width="30dp"-->
+                            <!--                android:layout_height="wrap_content"-->
+                            <!--                android:adjustViewBounds="true"-->
+                            <!--                android:background="?selectableItemBackgroundBorderless"-->
+                            <!--                android:padding="5dp"-->
+                            <!--                android:scaleType="fitCenter"-->
+                            <!--                app:srcCompat="@drawable/arrow_up"-->
+                            <!--                android:minHeight="0dp"-->
+                            <!--                android:minWidth="0dp"/>-->
+                            <TextView
+                                android:id="@+id/tvStore"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="-1dp"
+                                android:background="@color/Cyan1"
+                                android:gravity="right"
+                                android:paddingLeft="5dp"
+                                android:paddingTop="0dp"
+                                android:paddingRight="5dp"
+                                android:paddingBottom="0dp"
+                                android:text="مقادير جستجو"
+                                android:textColor="@color/White"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view19"
+                            android:layout_width="match_parent"
+                            android:layout_height="64dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar1"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/Cyan1"
+                android:gravity="center"
+                app:layout_collapseMode="pin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@color/Cyan1"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="6dp"
+                        android:fontFamily="@font/iransansbold"
+                        android:gravity="center|right"
+                        android:layoutDirection="rtl"
+                        android:text="جمع آوری سفارش"
+                        android:textColor="@color/White"
+                        android:textDirection="rtl"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:id="@+id/view15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/imgrefreshdeliverheader"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="6dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="6dp"
+                        android:src="@drawable/ic_baseline_refresh_24_white"
+                        android:tint="@color/White" />
+
+                    <ImageView
+                        android:id="@+id/imgbackerdeliverheader"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="6dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:layoutDirection="ltr"
+                        android:padding="6dp"
+                        android:src="@drawable/arrow_left"
+                        android:tint="@color/White" />
+
+                </LinearLayout>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/grey_100"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_100"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/prg_deliver_header_list"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginBottom="200dp"
+                android:background="@color/grey_100"
+                android:descendantFocusability="blocksDescendants"
+
+                android:divider="@android:color/transparent"
+                android:dividerHeight="6dp"
+                android:padding="6dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_rounded_orange_white"
+        android:orientation="vertical"
+        app:layout_anchor="@id/appBar"
+        app:layout_anchorGravity="bottom|end">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/txt_to_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:layout_weight="0.45"
+                android:fontFamily="@font/iransansbold"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_ta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:layout_weight="0.1"
+                android:fontFamily="@font/iransansbold"
+                android:gravity="center"
+                android:text="-"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txt_from__date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:layout_weight="0.45"
+                android:fontFamily="@font/iransansbold"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/tvCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/iransansbold"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:text="تعداد: 0"
+                android:textColor="@color/White" />
+
+            <View
+                android:id="@+id/view20"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/iransansbold"
+                android:gravity="center"
+                android:paddingRight="5dp"
+                android:text="فهرست سفارش"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

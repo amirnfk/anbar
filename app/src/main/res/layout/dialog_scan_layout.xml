@@ -1,0 +1,15 @@
+<!-- dialog_scan_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Add other UI elements if needed -->
+
+    <Button
+        android:id="@+id/scanButtonInsideDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Initiate Scan Inside Dialog" />
+
+</RelativeLayout>

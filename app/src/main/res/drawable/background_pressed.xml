@@ -1,0 +1,7 @@
+<!-- res/drawable/background_pressed.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- حالت لمس شده -->
+    <item android:state_pressed="true" android:drawable="@drawable/bg_orange_dark" />
+    <!-- حالت پیش‌فرض -->
+    <item android:drawable="@drawable/bg_orange_light" />
+</selector>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PickingApp.PickingEnterPalletActivity"
+    android:background="@color/Gray4"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="کالا"
+            android:textColor="@color/Black"
+            android:background="@color/Gray3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginLeft="0dp"
+                android:text="تعداد پالت جمع آوري شده را وارد نماييد"
+                android:textColor="@color/Gray"/>
+            <fragment
+                android:id="@+id/numPalletCount"
+                android:name="com.oshanak.mobilemarket.Activity.Common.NumericUpDownFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/numeric_up_down_fragment"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="@dimen/WideButtonPaddingLeft"
+                android:layout_margin="@dimen/WideButtonPaddingRight"/>
+<!--            <View-->
+<!--                style="@style/Divider2"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="10dp"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button_back2"
+                    android:onClick="onClickExit"
+                    android:text="خروج"
+                    android:textColor="@drawable/button_back2" />
+
+                <Button
+                    android:id="@+id/bConfirm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button_back2"
+                    android:onClick="onClickConfirm"
+                    android:text="تاييد"
+                    android:textColor="@drawable/button_back2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

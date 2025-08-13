@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Activity.Activity.ConfigActivity"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/haft_farsi" />
+
+<!--            <View-->
+<!--                style="@style/Divider2"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginBottom="15dp"/>-->
+<!--            <LinearLayout-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginLeft="@dimen/WideLineSidePadding"-->
+<!--                android:layout_marginRight="@dimen/WideLineSidePadding">-->
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="آدرس سرويس اطلاعاتي"-->
+<!--                    android:gravity="right"-->
+<!--                    android:paddingLeft="5dp"-->
+<!--                    android:layout_gravity="top"/>-->
+<!--                <EditText-->
+<!--                    style="@style/EditTextStyleNormal1"-->
+<!--                    android:id="@+id/etServiceUrl"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:ems="10"-->
+<!--                    android:inputType="textMultiLine"-->
+<!--                    android:maxLength="200"-->
+<!--                    android:lines="3"-->
+<!--                    android:gravity="top|left"-->
+<!--                    android:scrollbars="vertical"-->
+<!--                    android:layout_marginTop="5dp"/>-->
+
+<!--            </LinearLayout>-->
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingRight="10dp">
+
+                <RadioButton
+                    android:text="محيط عملياتي"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rOperational"
+                    android:layout_gravity="end"
+                    android:layoutDirection="rtl"
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="5dp"/>
+                <RadioButton
+                    android:text="محيط آزمايشي"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rPilot"
+                    android:layout_gravity="end"
+                    android:layoutDirection="rtl"
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="5dp"/>
+
+
+            </RadioGroup>
+            <TextView
+                android:text="توجه: به هيچ وجه تنظيم فوق را بدون هماهنگي با واحد انفورماتيك دفتر مركزي اوشانك تغيير ندهيد."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+            <!--            <Button-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="50"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:layout_margin="3dp"-->
+            <!--                android:text="برگشت"-->
+            <!--                android:gravity="center"-->
+            <!--                android:background="@drawable/button_back3"-->
+            <!--                android:textColor="@drawable/button_back3"-->
+            <!--                android:onClick="onReturn"/>-->
+            <Button
+                android:id="@+id/bConfirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textSize="20sp"
+                android:layout_margin="3dp"
+                android:text="تاييد"
+                android:gravity="center"
+                android:background="@drawable/button_back3"
+                android:textColor="@drawable/button_back3"
+                android:onClick="onConfirm"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

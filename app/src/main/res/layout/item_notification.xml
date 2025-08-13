@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_100"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:elevation="0dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/haft_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txt_notif_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iransansregular"
+                    android:gravity="center"
+                    android:singleLine="false"
+                    android:text="..."
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:fontFamily="@font/iransansbold"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:singleLine="true"
+                    android:textColor="@color/Gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bodyTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iransansregular"
+                    android:maxLines="4"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="6dp"
+                    android:singleLine="false"
+                    android:textColor="@color/Gray"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/lyt_voice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_play"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="6dp"
+                        android:padding="8dp"
+                        android:src="@drawable/play"
+                        android:tint="@color/HaftOrange" />
+
+                    <TextView
+                        android:id="@+id/txt_current_time"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="center"
+                        android:text="00:00"
+                        android:textColor="@color/Black"
+                        android:textSize="10sp" />
+
+                    <SeekBar
+                        android:id="@+id/notif_seekbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_margin="6dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/txt_total_time"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="center"
+                        android:text="00:00"
+                        android:textColor="@color/Black"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_orderIdtype"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="@font/iransansregular"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="..."
+                android:textColor="@color/White"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Set to GONE initially, make it visible if you have an image -->
+
+</LinearLayout>

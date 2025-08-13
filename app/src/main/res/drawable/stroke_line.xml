@@ -1,0 +1,7 @@
+<item android:state_pressed="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="line">
+        <stroke android:width="2dp"
+            android:color="#F44336" />
+    </shape>
+</item>

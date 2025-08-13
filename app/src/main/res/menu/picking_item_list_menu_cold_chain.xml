@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mnuBarcode"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnuRefresh"
+        android:icon="@drawable/ic_baseline_refresh_24_white"
+        android:title=""
+        app:showAsAction="always" />
+    <item android:id="@+id/mnuAction"
+        android:title="آغاز جمع آوري"
+        app:showAsAction="always"/>
+    <item android:id="@+id/mnuExit"
+        android:title="خروج"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

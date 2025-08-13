@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.StoreDirectRelationActivity"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="موضوع"
+            android:gravity="right" />
+        <Spinner
+            style="@style/EditTextStyleNormal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/sSubject"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="شرح موضوع"
+            android:gravity="right" />
+        <EditText style="@style/EditTextStyleNormal1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:maxLength="3000"
+            android:ellipsize="end"
+            android:text=""
+            android:gravity="top"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorBlueFont"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/bConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:onClick="onConfirm"
+        android:text="تاييد"
+        android:gravity="center"
+        android:background="@drawable/button_back4"
+        android:textColor="@drawable/button_back4"/>
+</LinearLayout>

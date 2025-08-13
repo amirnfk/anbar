@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_9" />
+        <device id="pixel_9_pro_fold" />
+        <device id="wearos_rect" />
+        <device id="pixel_7" />
+        <device id="pixel_4_xl" />
+        <device id="pixel_5" />
+        <device id="pixel_3" />
+        <device id="8in Foldable" />
+        <device id="4in WVGA (Nexus S)" />
+        <device id="3.7in WVGA (Nexus One)" />
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-34/data/res/layout/simple_list_item_1.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_check_new_version.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_competitor_company_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_config.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_define_competitor.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_define_competitor_product.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_define_garbage_product.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_deliver_item_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_deliver_order.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_deliver_order_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_deliver_order_location.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_direct_receive_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_direct_receive_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_inbound_detail.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.Dialog.Alert</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_picking_item.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.Dialog.Alert</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_warehouse_counting.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.Dialog.Alert</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_warehouse_order.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.Dialog.Alert</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_warehousing_item.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.Dialog.Alert</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_image_enlarged.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_price_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login_redesign.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_men_grid.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.DayNight.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu_redesign.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_new_document_upload.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_new_order_web_view.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notification_detail.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_notification_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_control_header.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_control_header_redesign.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_control_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_control_line.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_deliver_header_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_deliver_header_redesign.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_deliver_itemlist_redesign.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_enter_pallet.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.Dialog.Alert</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_item_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_picking_item_list_cold_chain.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_print_barcode.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_product_control.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_promotions_list.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_return_from_store.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_product_by_name.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_vendor_by_product.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_send_direct_receive_to_sapactivity.xml">
+        <config>
+          <theme>@style/Theme.AppCompat.Light.Dialog.Alert</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_store_deliver_inbound_header.xml">
+        <config>
+          <night>night</night>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_store_direct_relation.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_store_inbound_detail.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_upload_docs.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_warehouse_counting.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_warehouse_order.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_warehousing_one.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_warehousing_two.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_webview.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/ctoast_view.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/ctoast_view_error.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_intro_layout.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_search_view.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_error.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_item_info.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_password.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_searchable_spinner.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_blank.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_date.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_product_code.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/inboundheaderlistlayout.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/intro_slide_policy.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_notification.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/items_inner.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/numeric_up_down_fragment.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/palletecount_dialog_input.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/promotions_inner_layout.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/promotions_inner_layout_linear.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_competitor_company.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_deliver_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_deliver_order.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_direct_receive_header.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_general_spinner.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_inbound_detail.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_inbound_header.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_picking_control_header.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_picking_control_header_level2.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_picking_control_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_picking_deliver_header.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_picking_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_print_barcode.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_return_from_store.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/row_vendor.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/service_layout.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/simplecustomlist.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/success_toast_layout.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/deliver_order_list_menu.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/picking_item_list_menu.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/picking_order_list_menu.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/store_inbound_detail_menu.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1934b849-91d4-416d-824a-6077cd3a5258" name="Default Changelist" comment="docus_uploader_ui_first_version" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=R5CX62SHY7W)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Android_Source" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Android_Source" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Android_Source" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Android_Source" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\myProjects\Oshanak_Mobile_WareHouse\Document\keystore\key" />
+    <option name="KEY_ALIAS" value="keystore" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/local.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="1uyvwAF8LvnYWhgQ5UlXPjtI5hV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ApkExportedModule&quot;: &quot;Android_Source.app&quot;,
+    &quot;ExportApk.ApkPathForAndroid_Source.app&quot;: &quot;D:\\myProjects\\Oshanak_Mobile_WareHouse\\Android_Source\\app\\src\\release\\res&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.6.1/ace9a78b961165396147e8691faa18c1b0e48e20/appcompat-1.6.1-sources.jar!/androidx/appcompat/widget/ActionBarOverlayLayout.java_SELECTED&quot;: &quot;ActionBarOverlayLayout&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.1.4/27e12209e529970f69bc817f349c247ef238fae7/constraintlayout-2.1.4-sources.jar!/androidx/constraintlayout/widget/ConstraintLayout.java_SELECTED&quot;: &quot;ConstraintLayout&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/.gradle/caches/modules-2/files-2.1/androidx.drawerlayout/drawerlayout/1.2.0/109ee6a24cd24f891486589ef31d19ec4acb7c3e/drawerlayout-1.2.0-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java_SELECTED&quot;: &quot;DrawerLayout&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED&quot;: &quot;RecyclerView&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/AppData/Local/Android/Sdk/sources/android-33/android/opengl/GLSurfaceView.java_SELECTED&quot;: &quot;GLSurfaceView&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/AppData/Local/Android/Sdk/sources/android-33/android/view/View.java_SELECTED&quot;: &quot;View&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/AppData/Local/Android/Sdk/sources/android-33/android/view/ViewGroup.java_SELECTED&quot;: &quot;ViewGroup&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/AppData/Local/Android/Sdk/sources/android-34/android/view/View.java_SELECTED&quot;: &quot;View&quot;,
+    &quot;android-custom-viewC:/Users/anoorafkan/AppData/Local/Android/Sdk/sources/android-34/android/widget/ListView.java_SELECTED&quot;: &quot;ListView&quot;,
+    &quot;android-custom-viewD:/myProjects/Oshanak_Mobile_WareHouse/Android_Source/app/src/main/java/com/oshanak/mobilemarket/Activity/Common/SearchableSpinner.java_SELECTED&quot;: &quot;SearchableSpinner&quot;,
+    &quot;android-custom-viewD:/myProjects/Oshanak_Mobile_WareHouse/Android_Source/app/src/main/java/com/oshanak/mobilemarket/Activity/Common/SearchableSpinner.java_SearchableSpinner_WRAP_CONTENT_H&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/myProjects/Oshanak_Mobile/Android_Source/app/src/main/res/drawable&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/myProjects/Oshanak_Mobile_WareHouse/Android_Source&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;false&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ExportApk.BuildVariants&quot;: [
+      &quot;release&quot;
+    ],
+    &quot;android-custom-viewD:/myProjects/Oshanak_Mobile_WareHouse/Android_Source/app/src/main/java/com/oshanak/mobilemarket/Activity/Common/SearchableSpinner.java_SearchableSpinner_DIMENSIONS&quot;: [
+      &quot;1080&quot;,
+      &quot;1920&quot;
+    ]
+  }
+}</component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-723809182">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-1172737475">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-2006353424">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-1372304721">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.1988732056">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.1404848420">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.1456375514">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-391644278">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+    <key name="android.template.-895662692">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-983355528">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-573491175">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+    <key name="android.template.1102956896">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\layout" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\drawable" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\drawable-xxxhdpi" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\drawable-xxhdpi" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\drawable-xhdpi" />
+    </key>
+    <key name="android.template.-1263970919">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+    <key name="android.template.1000586831">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.2015988871">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+    <key name="android.template.1323685377">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+    <key name="android.template.-1906380567">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-1119034646">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+      <recent name="com.oshanak.mobilemarket.Activity.Service" />
+      <recent name="com.oshanak.mobilemarket.Activity.Models" />
+      <recent name="com.oshanak.mobilemarket.Activity.RowAdapter" />
+      <recent name="com.oshanak.mobilemarket.Activity.DataStructure" />
+    </key>
+    <key name="android.template.1896778059">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.251122424">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oshanak.mobilemarket.Activity.PickingApp" />
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+      <recent name="Picking.PicikkingWebService.Models" />
+      <recent name="com.oshanak.mobilemarket.Activity.RowAdapter" />
+      <recent name="com.oshanak.mobilemarket.Activity.Service.Retrofit" />
+    </key>
+    <key name="android.template.1494694651">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\layout" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\drawable" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\raw" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\java\com\oshanak\mobilemarket\Activity\PushNotification" />
+      <recent name="D:\myProjects\Oshanak_Mobile\Android_Source\app\src\main\res\values" />
+    </key>
+    <key name="android.template.2025400656">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.735708094">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-1391573929">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.871911134">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-1848907185">
+      <recent name="com.oshanak.mobilemarket" />
+    </key>
+    <key name="android.template.-1665793252">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+    <key name="android.template.558619074">
+      <recent name="com.oshanak.mobilemarket.Activity.Activity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Android_Source.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\mafarahani\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1934b849-91d4-416d-824a-6077cd3a5258" name="Default Changelist" comment="" />
+      <created>1625650880235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625650880235</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test 1">
+      <created>1625651345140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625651345140</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test 1">
+      <created>1625651415693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625651415693</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test 1">
+      <created>1625985023788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625985023788</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test 1">
+      <created>1627195575804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627195575804</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test 1">
+      <created>1627292521763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627292521763</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test 1">
+      <created>1631344644680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631344644680</updated>
+    </task>
+    <task id="LOCAL-00007" summary="14000728">
+      <created>1634718359642</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634718359642</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test 1">
+      <created>1634718534964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634718534964</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test 1">
+      <created>1635834781575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635834781575</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test 1">
+      <created>1669630286904</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669630286904</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test 1">
+      <created>1669630664866</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669630664866</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test 1">
+      <created>1669630743704</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669630743704</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test 1">
+      <created>1669630936982</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669630936982</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test 1">
+      <created>1669631559028</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669631559028</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test 1">
+      <created>1669635074959</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669635074959</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test for new commit">
+      <created>1669707960589</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669707960589</updated>
+    </task>
+    <task id="LOCAL-00017" summary="after adding promotion list">
+      <created>1672754428228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672754428228</updated>
+    </task>
+    <task id="LOCAL-00018" summary="after adding promotion list and notifications">
+      <created>1673352835933</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673352835933</updated>
+    </task>
+    <task id="LOCAL-00019" summary="after adding promotion list and notifications">
+      <created>1673429696085</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673429696085</updated>
+    </task>
+    <task id="LOCAL-00020" summary="after first version of cold chain">
+      <created>1673867704024</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673867704024</updated>
+    </task>
+    <task id="LOCAL-00021" summary="after first version of cold chain">
+      <created>1673871318008</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1673871318008</updated>
+    </task>
+    <task id="LOCAL-00022" summary="after first version of cold chain">
+      <created>1673873515166</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673873515166</updated>
+    </task>
+    <task id="LOCAL-00023" summary="notification service for snap is added">
+      <created>1675007048539</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1675007048539</updated>
+    </task>
+    <task id="LOCAL-00024" summary="notification service for snap is added preFinal">
+      <created>1675062263770</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675062263770</updated>
+    </task>
+    <task id="LOCAL-00025" summary="notification service for snap is added preFinal">
+      <created>1675063387976</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675063387976</updated>
+    </task>
+    <task id="LOCAL-00026" summary="notification service for snap is added preFinal">
+      <created>1675070742330</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675070742330</updated>
+    </task>
+    <task id="LOCAL-00027" summary="14011028-cold">
+      <created>1675079578805</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675079578805</updated>
+    </task>
+    <task id="LOCAL-00028" summary="14011028-cold">
+      <created>1675149997368</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675149997368</updated>
+    </task>
+    <task id="LOCAL-00029" summary="14011028-cold">
+      <created>1675252690587</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1675252690587</updated>
+    </task>
+    <task id="LOCAL-00030" summary=" promotion list improved">
+      <created>1677914277006</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677914277006</updated>
+    </task>
+    <task id="LOCAL-00031" summary=" promotion list improved and final">
+      <created>1677914622340</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677914622340</updated>
+    </task>
+    <task id="LOCAL-00032" summary="docus_uploader_ui_first_version">
+      <created>1686042409844</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686042409844</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../bahrami-temp" />
+    </ignored-roots>
+    <MESSAGE value="14000728" />
+    <MESSAGE value="test 1" />
+    <MESSAGE value="test for new commit" />
+    <MESSAGE value="after adding promotion list" />
+    <MESSAGE value="after adding promotion list and notifications" />
+    <MESSAGE value="after first version of cold chain" />
+    <MESSAGE value="notification service for snap is added" />
+    <MESSAGE value="notification service for snap is added preFinal" />
+    <MESSAGE value="14011028-cold" />
+    <MESSAGE value=" promotion list improved" />
+    <MESSAGE value=" promotion list improved and final" />
+    <MESSAGE value="docus_uploader_ui_first_version" />
+    <option name="LAST_COMMIT_MESSAGE" value="docus_uploader_ui_first_version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/EditGarbageProductDetailActivity.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DefineGarbageProductActivity.java</url>
+          <line>502</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/PrintBarcodeActivity.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehouseOrderActivity.java</url>
+          <line>538</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/RowAdapter/row_vendor.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DirectReceiveItemActivity.java</url>
+          <line>498</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DefineGarbageProductActivity.java</url>
+          <line>685</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DirectReceiveItemActivity.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DirectReceiveItemActivity.java</url>
+          <line>742</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DirectReceiveItemActivity.java</url>
+          <line>736</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehousingTwoActivity.java</url>
+          <line>804</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/EditWarehousingItemActivity.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehousingTwoActivity.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/EditDirectReceiveDetailActivity.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DirectReceiveItemActivity.java</url>
+          <line>798</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DirectReceiveItemActivity.java</url>
+          <line>775</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DirectReceiveItemActivity.java</url>
+          <line>781</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DeliverOrderActivity.java</url>
+          <line>304</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehousingTwoActivity.java</url>
+          <line>647</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehouseOrderActivity.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/DefineGarbageProductActivity.java</url>
+          <line>565</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehouseCountingActivity.java</url>
+          <line>399</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehouseCountingActivity.java</url>
+          <line>506</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/WarehouseCountingActivity.java</url>
+          <line>442</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CompetitorLocationActivity.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CompetitorLocationActivity.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CheckNewVersionActivity.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CheckNewVersionActivity.java</url>
+          <line>303</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CheckNewVersionActivity.java</url>
+          <line>307</line>
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CheckNewVersionActivity.java</url>
+          <line>355</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CheckNewVersionActivity.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CheckNewVersionActivity.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/CheckNewVersionActivity.java</url>
+          <line>325</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/GarbageProductHeaderListActivity.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/oshanak/mobilemarket/Activity/Activity/GarbageProductHeaderListActivity.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="getPcAmount()" language="JAVA" />
+        <watch expression="obj.getProperty(&quot;AddressId&quot;).toString()" language="JAVA" />
+        <watch expression="data.getInsertDate()).substring(1, 16)" language="JAVA" />
+        <watch expression="data.getInsertDate().substring(0, 16)" language="JAVA" />
+        <watch expression="data.getBooleanExtra(&quot;refreshList&quot;, false)" language="JAVA" />
+        <watch expression="((ProductUnitData)sUnit.getItemAtPosition(i)).getUnitName()" language="JAVA" />
+        <watch expression="taskResult.dataStructure.toString()" language="JAVA" />
+        <watch expression="productControlContainerData.getProductControlData().getSalePrice()" language="JAVA" />
+        <watch expression="productControlContainerData.getProductControlData().getPrice()" language="JAVA" />
+        <watch expression="URL()" language="JAVA" />
+        <watch expression="tag.split(&quot;,&quot;)[2]" language="JAVA" />
+        <watch expression="sUnit.getSelectedItem()" language="JAVA" />
+        <watch expression="URL()" language="JAVA" />
+        <watch expression="((ProductUnitData)sUnit.getSelectedItem()).getUnitName()" language="JAVA" />
+        <watch expression="reason.getID()" language="JAVA" />
+        <watch expression="storeReturnItemData.getReturnReasonID()" language="JAVA" />
+        <watch expression="pickingDeliverItemData.getDeliverUnit()" language="JAVA" />
+        <watch expression="GlobalData.getUserName()" language="JAVA" />
+        <watch expression="taskResult.dataStructure" language="JAVA" />
+        <watch expression="Uri.parse(url)" language="JAVA" />
+        <watch expression="percent" language="JAVA" />
+        <watch expression="pickingDeliverItemData.getUMVKZ()" language="JAVA" />
+        <watch expression="sUnit.getSelectedItem()" language="JAVA" />
+        <watch expression="obj.getProperty(&quot;CustomerLat&quot;).toString()" language="JAVA" />
+        <watch expression="etPassword.getText()" language="JAVA" />
+        <watch expression="customerHasLocation()" language="JAVA" />
+        <watch expression="e.getMessage()" language="JAVA" />
+        <watch expression="param[0]" language="JAVA" />
+        <watch expression="param[1]" language="JAVA" />
+        <watch expression="URL()" language="JAVA" />
+        <watch expression="Utility.applicationMode != ApplicationMode.StoreHandheld" language="JAVA" />
+        <watch expression="cbRememberPassword.isChecked()" language="JAVA" />
+        <watch expression="event.toString()" language="JAVA" />
+        <watch expression="imm.isAcceptingText()" language="JAVA" />
+        <watch expression="imm.isActive()" language="JAVA" />
+        <watch expression="imm.i" language="JAVA" />
+        <watch expression="GlobalData.getStoreID()" language="JAVA" />
+        <watch expression="productUnitDataList.get(i).getUnitName()" language="JAVA" />
+        <watch expression="garbageProductHeaderData.getID()" language="JAVA" />
+        <watch expression="deliverOrderData.getAxFactorNo()" language="JAVA" />
+        <watch expression="obj" language="JAVA" />
+        <watch expression="URL()" language="JAVA" />
+        <watch expression="sLine.getSelectedItem().toString()" language="JAVA" />
+        <watch expression="adapter.getCount()" language="JAVA" />
+        <watch expression="warehouseCountingDetailData.getID()" language="JAVA" />
+        <watch expression="((SoapObject) common.taskResult.dataStructure)" language="JAVA" />
+        <watch expression="sLine.getCount()" language="JAVA" />
+        <watch expression="sLine.getItemAtPosition(i).toString()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.oshanak.mobilemarket">
+          <value>
+            <CheckInfo lastCheckTimestamp="1754381310856" />
+          </value>
+        </entry>
+        <entry key="com.oshanak.mobilemarket.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1754381310857" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

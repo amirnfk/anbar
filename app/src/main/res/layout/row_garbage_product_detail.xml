@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/ListViewPaddingRight"
+    android:paddingLeft="5dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="عنوان كالا"
+            android:gravity="right"
+            android:textColor="@color/Black">
+        </TextView>
+        <!--        <TextView-->
+        <!--            android:id="@+id/tvArticleCode"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="كد"-->
+        <!--            android:gravity="right"-->
+        <!--            android:textColor="@color/Black"-->
+        <!--            android:layout_marginLeft="5dp"-->
+        <!--            android:layout_marginRight="5dp">-->
+        <!--        </TextView>-->
+        <TextView
+            android:id="@+id/tvRowCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="شماره:"
+            android:gravity="right"
+            android:layout_marginLeft="5dp">
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="1dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:gravity="left"
+            android:textColor="@color/Black">
+        </TextView>
+        <TextView
+            android:id="@+id/tvAmount1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تعداد ضايعات (PC)"
+            android:gravity="right">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <ImageButton
+            android:id="@+id/bDelete"
+            android:layout_width="@dimen/StoreListViewButtonSize"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/delete2"
+            android:layout_marginLeft="@dimen/ListViewButtonSidePadding"
+            android:layout_marginRight="@dimen/ListViewButtonSidePadding"/>
+        <ImageButton
+            android:id="@+id/bEdit"
+            android:layout_width="@dimen/StoreListViewButtonSize"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/edit2"
+            android:layout_marginLeft="@dimen/ListViewButtonSidePadding"
+            android:layout_marginRight="@dimen/ListViewButtonSidePadding" />
+
+
+    </LinearLayout>
+</LinearLayout>

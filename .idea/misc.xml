@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/drawable/barcode3.xml" value="0.2595" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/drawable/barcode3_background.xml" value="0.2595" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/drawable/button_back2.xml" value="0.2595" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/drawable/button_back3.xml" value="0.2595" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/drawable/button_shape_normal3.xml" value="0.2595" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/drawable/list_item_back_normal.xml" value="0.3769230769230769" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/drawable/list_item_back_selected.xml" value="0.3769230769230769" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_about.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_check_new_version.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_colleague_presentation.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_collector_checking_header.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_competitor_company_list.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_competitor_list.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_competitor_location.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_config.xml" value="0.26871794871794874" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_define_competitor.xml" value="0.27291666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_define_garbage_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_deliver_item_list.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_deliver_order.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_deliver_order_list.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_deliver_order_location.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_direct_receive_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_direct_receive_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_deliver_item.xml" value="0.24375" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_deliver_order_price.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_direct_receive_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_garbage_product_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_inbound_detail.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_picking_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_print_barcode.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_store_return_item.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_warehouse_counting.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_warehouse_order.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_edit_warehousing_item.xml" value="0.2894399315946986" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_fast_help.xml" value="0.2894399315946986" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_filter_warehousing_item.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_garbage_product_header_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_main_menu.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_picking_control_detail.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_picking_control_header.xml" value="0.25" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_picking_deliver_header_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_picking_enter_pallet.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_picking_item_list.xml" value="0.27291666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_print_barcode.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_product_control.xml" value="0.5" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_return_from_store.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_select_vendor_by_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_send_direct_receive_to_sapactivity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_store_deliver_inbound_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_store_deliver_order.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_store_direct_relation.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_store_inbound_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_warehouse_counting.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_warehouse_order.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_warehousing_one.xml" value="0.27291666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/activity_warehousing_two.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/custom_menu_item.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/fragment_date.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/fragment_product_code.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/numeric_up_down_fragment.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_competitor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_direct_receive_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_direct_receive_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_garbage_product_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_garbage_product_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_inbound_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_inbound_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_picking_control_header.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_picking_control_item.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_picking_deliver_header.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_picking_item.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_print_barcode.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_return_from_store.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_unit.xml" value="0.1" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_vendor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_warehouse_counting.xml" value="0.33" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_warehouse_order.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/layout/row_warehousing.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/collector_checking_header_menu.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/define_garbage_product_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/deliver_order_list_menu.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/direct_receive_item_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/picking_control_item_menu.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/picking_item_list_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/picking_order_list_menu.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/print_barcode_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/return_from_store_menu.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/store_inbound_detail_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/warehouse_counting_menu.xml" value="0.2975630611372381" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/warehouse_order_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/menu/warehousing_menu.xml" value="0.3009833262077811" />
+        <entry key="..\:/Oshanak_Mobile/Android_Source/app/src/main/res/mipmap-anydpi-v26/barcode3.xml" value="0.2595" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK" />
+</project>

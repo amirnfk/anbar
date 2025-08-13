@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/ListViewPaddingRight"
+    android:paddingLeft="0dp"
+    android:gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants">
+    <Button
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bConfirm"
+        android:layout_margin="0dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:textColor="@color/Green"
+        android:drawableRight="@drawable/checkmark"
+        android:gravity="right|center"
+        android:drawablePadding="@dimen/ListViewButtonDrawablePadding"
+        android:paddingRight="20dp"
+        android:paddingLeft="@dimen/ListViewButtonSidePadding"
+        android:minHeight="0dp"
+        android:minWidth="0dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_marginTop="1dp">
+
+            <TextView
+                android:id="@+id/tvArticleDefinition"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="عنوان كالا"
+                android:gravity="right"
+                android:textColor="@color/Black">
+            </TextView>
+    <!--        <TextView-->
+    <!--            android:id="@+id/tvArticleCode"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="كد"-->
+    <!--            android:gravity="right"-->
+    <!--            android:textColor="@color/Black"-->
+    <!--            android:layout_marginLeft="5dp"-->
+    <!--            android:layout_marginRight="5dp">-->
+    <!--        </TextView>-->
+            <TextView
+                android:id="@+id/tvRowCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="شماره:"
+                android:gravity="right"
+                android:layout_marginLeft="5dp">
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_marginTop="1dp"
+            android:gravity="center">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="right">
+                <TextView
+                    android:id="@+id/tvPickingQuantity3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تحويل"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp">
+                </TextView>
+                <TextView
+                    android:id="@+id/tvPickingQuantity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تحويل"
+                    android:gravity="right">
+                </TextView>
+                <TextView
+                    android:id="@+id/tvPickingQuantity1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تحويل: "
+                    android:gravity="right">
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tvPositionNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="موقعيت"
+                android:gravity="right">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

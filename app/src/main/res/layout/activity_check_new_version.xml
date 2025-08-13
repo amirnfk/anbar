@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/haft_blue"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activity.CheckNewVersionActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            tools:context=".Activity.CheckNewVersionActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@color/White"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="8dp"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="8dp"
+                                android:layout_marginRight="5dp"
+                                app:srcCompat="@drawable/logo_haft_vector" />
+
+                            <TextView
+                                android:id="@+id/tvTitle"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="clip_vertical"
+                                android:layout_margin="8dp"
+                                android:gravity="center|center_vertical"
+                                android:text="نسخه جديد"
+                                android:textColor="@color/HaftOrange"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tvComment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="8dp"
+                            android:fontFamily="@font/iransansbold"
+                            android:lineSpacingMultiplier="1.3"
+                            android:paddingLeft="3dp"
+                            android:paddingRight="3dp"
+                            android:text="نسخه ای جدید از برنامه موجود می باشد و لازم است دریافت گردد."
+                            android:textAlignment="center"
+                            android:textColor="@color/HaftOrange"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:orientation="vertical">
+
+                            <View
+                                style="@style/Divider2"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="5dp" />
+                            <!--                    <LinearLayout-->
+                            <!--                        android:layout_width="match_parent"-->
+                            <!--                        android:layout_height="wrap_content"-->
+                            <!--                        android:orientation="horizontal"-->
+                            <!--                        android:gravity="center">-->
+                            <!--                        <ImageView-->
+                            <!--                            android:layout_width="30dp"-->
+                            <!--                            android:layout_height="30dp"-->
+                            <!--                            android:layout_marginRight="5dp"-->
+                            <!--                            app:srcCompat="@drawable/question2"-->
+                            <!--                            android:padding="1dp"-->
+                            <!--                            android:onClick="onMarketHelpClick"/>-->
+                            <!--                        <TextView-->
+                            <!--                            android:text="انتخاب مكان دريافت نسخه جديد:"-->
+                            <!--                            android:layout_width="match_parent"-->
+                            <!--                            android:layout_height="wrap_content"-->
+                            <!--                            android:textColor="@color/Gray"-->
+                            <!--                            android:paddingLeft="3dp"-->
+                            <!--                            android:paddingRight="3dp"/>-->
+                            <!--                    </LinearLayout>-->
+                            <!--                    <RadioGroup-->
+                            <!--                        android:id="@+id/rgSource"-->
+                            <!--                        android:layout_width="fill_parent"-->
+                            <!--                        android:layout_height="wrap_content"-->
+                            <!--                        android:layout_gravity="right"-->
+                            <!--                        android:orientation="vertical"-->
+                            <!--                        android:layout_marginTop="5dp"-->
+                            <!--                        android:layout_marginBottom="5dp"-->
+                            <!--                        android:paddingRight="10dp">-->
+
+                            <!--                        <RadioButton-->
+                            <!--                            android:text="بروز رساني اتوماتيك از سايت دُكّان (شامل اعتبار هديه)"-->
+                            <!--                            android:layout_width="wrap_content"-->
+                            <!--                            android:layout_height="wrap_content"-->
+                            <!--                            android:id="@+id/rDokkanUpdate"-->
+                            <!--                            android:layout_gravity="end"-->
+                            <!--                            android:layoutDirection="rtl"-->
+                            <!--                            android:layout_marginTop="0dp"/>-->
+                            <!--                        <RadioButton-->
+                            <!--                            android:text="دانلود فايل نصب از سايت دُكّان (شامل اعتبار هديه)"-->
+                            <!--                            android:layout_width="wrap_content"-->
+                            <!--                            android:layout_height="wrap_content"-->
+                            <!--                            android:id="@+id/rDokkanDownload"-->
+                            <!--                            android:layout_gravity="end"-->
+                            <!--                            android:layoutDirection="rtl"-->
+                            <!--                            android:layout_marginTop="0dp"/>-->
+                            <!--                        <RadioButton-->
+                            <!--                            android:text="اپليكيشن كافه بازار"-->
+                            <!--                            android:layout_width="wrap_content"-->
+                            <!--                            android:layout_height="wrap_content"-->
+                            <!--                            android:id="@+id/rBazaar"-->
+                            <!--                            android:layout_gravity="end"-->
+                            <!--                            android:layoutDirection="rtl"-->
+                            <!--                            android:layout_marginTop="0dp"/>-->
+
+                            <!--                    </RadioGroup>-->
+                            <View
+                                style="@style/Divider2"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/tvPercent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/iransansbold"
+                                    android:gravity="center"
+                                    android:paddingLeft="3dp"
+                                    android:paddingRight="3dp"
+                                    android:text="0 %"
+                                    android:textColor="@color/HaftOrange" />
+
+                                <ProgressBar
+                                    android:id="@+id/progressBar"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:scaleY="2" />
+
+                                <TextView
+                                    android:id="@+id/tvDownloadAlarm"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingLeft="3dp"
+                                    android:paddingRight="3dp"
+                                    android:text="لطفاً تا دريافت كامل فايل نسخه جديد و نمايش صفحه نصب منتظر بمانيد..."
+                                    android:textColor="@color/colorPrimary"
+                                    android:visibility="invisible" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    app:cardBackgroundColor="@color/HaftOrange"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <Button
+                        android:id="@+id/bConfirm"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/iransansbold"
+                        android:gravity="center"
+                        android:onClick="onConfirmClick"
+                        android:text="دریافت"
+                        android:textColor="@color/White"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    app:cardBackgroundColor="@color/HaftOrange"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/iransansbold"
+                        android:gravity="center"
+                        android:onClick="onCancelClick"
+                        android:text="انصراف"
+                        android:textColor="@color/White"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

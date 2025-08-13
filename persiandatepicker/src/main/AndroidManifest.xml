@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ir.smartlab.persiandatepicker">
+
+    <application
+        tools:replace="android:label"
+        android:allowBackup="true"
+        android:label="@string/dokkan"
+        android:supportsRtl="true">
+    </application>
+
+</manifest>

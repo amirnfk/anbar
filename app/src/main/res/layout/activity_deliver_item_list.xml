@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.DeliverItemListActivity"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:layout_marginBottom="0dp">
+
+<!--        <LinearLayout-->
+<!--            android:background="@color/Cyan1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginTop="3dp">-->
+            <!--            <ImageButton-->
+            <!--                android:id="@+id/ibMinimize"-->
+            <!--                android:layout_width="30dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:adjustViewBounds="true"-->
+            <!--                android:background="?selectableItemBackgroundBorderless"-->
+            <!--                android:padding="5dp"-->
+            <!--                android:scaleType="fitCenter"-->
+            <!--                app:srcCompat="@drawable/arrow_up"-->
+            <!--                android:minHeight="0dp"-->
+            <!--                android:minWidth="0dp"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvStore"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="right"-->
+<!--                android:text="مقادير جستجو"-->
+<!--                android:textColor="@color/White"-->
+<!--                android:background="@color/Cyan1"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:paddingRight="5dp"-->
+<!--                android:paddingTop="0dp"-->
+<!--                android:paddingBottom="0dp"/>-->
+<!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp">
+                <TextView
+                    android:id="@+id/tvOrderId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="شماره سفارش"
+                    android:gravity="center"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:text="شماره"
+                    android:gravity="right"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp">
+                <TextView
+                    android:id="@+id/tvCustomerName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="80"
+                    android:text="مشترك"
+                    android:gravity="center"
+                    android:textColor="@color/Black"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:text="مشترك"
+                    android:gravity="right"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="0dp">
+        <LinearLayout
+            android:background="@color/Cyan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="0dp">
+            <TextView
+                android:id="@+id/tvCount"
+                android:textColor="@color/White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="right"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اقلام سفارش"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:textColor="@color/White"/>
+        </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview"
+            android:clickable="true"
+            android:focusable="true"
+            android:fadeScrollbars="true"
+            android:choiceMode="singleChoice"
+            android:padding="@dimen/ListViewPadding"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/ListViewDividerHeight"
+            android:background="@color/Gray3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/Blue6"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvTotalPrice11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_marginLeft="3dp"
+            android:gravity="right"
+            android:text="مبلغ: 0"
+            android:textColor="@color/colorBlueFont" />
+        <TextView
+            android:id="@+id/tvTotalCount11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_marginLeft="3dp"
+            android:gravity="right"
+            android:text="تعداد: 0"
+            android:textColor="@color/colorBlueFont" />
+    </LinearLayout>
+</LinearLayout>

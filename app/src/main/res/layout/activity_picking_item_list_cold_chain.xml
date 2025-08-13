@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PickingApp.PickingDeliverItemListActivity"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibMinimize"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:background="?selectableItemBackgroundBorderless"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="3dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24" />
+
+            <TextView
+                android:id="@+id/tvMoreParam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:fontFamily="@font/iransansregular"
+                android:gravity="center"
+                android:paddingRight="0dp"
+                android:text="بیشتر"
+                android:textColor="@color/White" />
+
+            <TextView
+                android:id="@+id/tvStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/iransansregular"
+                android:gravity="right"
+                android:paddingLeft="5dp"
+                android:paddingTop="0dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="0dp"
+                android:text="مشخصات سفارش"
+                android:textColor="@color/White" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:paddingLeft="0dp"
+                        android:text="11111"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="start"
+                        android:paddingLeft="0dp"
+                        android:text="تاريخ" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        android:id="@+id/tvDocNo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:paddingLeft="0dp"
+                        android:text="11111"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="start"
+                        android:paddingLeft="0dp"
+                        android:text="شماره" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/tvStatusName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:paddingLeft="0dp"
+                        android:text="11111"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="start"
+                        android:paddingLeft="0dp"
+                        android:text="وضعيت" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/tvStoreId"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:paddingLeft="0dp"
+                        android:text="*زنجیره سرد*"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="start"
+                        android:paddingLeft="0dp"
+                        android:text="فروشگاه" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lParamValues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <View style="@style/Divider2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/WideLineSidePadding"
+                    android:layout_marginRight="@dimen/WideLineSidePadding">
+                    <Spinner
+                        style="@style/EditTextStyleNormal1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/sItemFilter"
+                        android:layout_weight="75"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="25"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:paddingLeft="3dp"
+                        android:text="وضعيت اقلام" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/WideLineSidePadding"
+                    android:layout_marginRight="@dimen/WideLineSidePadding">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="75">
+
+                        <ImageButton
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:adjustViewBounds="true"
+                            android:background="?selectableItemBackgroundBorderless"
+                            android:onClick="onSearch"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/ic_baseline_refresh_24" />
+                        <EditText
+                            android:id="@+id/etCode"
+                            style="@style/EditTextStyleNormal1"
+                            android:layout_width="0dp"
+                            android:layout_weight="75"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:maxLength="40"
+                            android:text=""
+                            android:gravity="center"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="25"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:text="کد/بارکد کالا" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iransansregular"
+                android:gravity="right"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:textColor="@color/White" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iransansregular"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:text="اقلام سفارش"
+                android:textColor="@color/White" />
+        </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview"
+            android:clickable="true"
+            android:focusable="true"
+            android:fadeScrollbars="true"
+            android:choiceMode="singleChoice"
+            android:padding="@dimen/ListViewPadding"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/ListViewDividerHeight"
+            android:background="@color/Gray3"/>
+    </LinearLayout>
+</LinearLayout>

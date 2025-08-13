@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    android:padding="0dp"
+    android:layoutDirection="ltr">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Cyan1"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:background="@color/Cyan1"
+                android:orientation="vertical"
+                android:padding="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/Cyan1"
+                    android:orientation="horizontal">
+                    <!--            <ImageButton-->
+                    <!--                android:id="@+id/ibMinimize"-->
+                    <!--                android:layout_width="30dp"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:adjustViewBounds="true"-->
+                    <!--                android:background="?selectableItemBackgroundBorderless"-->
+                    <!--                android:padding="5dp"-->
+                    <!--                android:scaleType="fitCenter"-->
+                    <!--                app:srcCompat="@drawable/arrow_up"-->
+                    <!--                android:minHeight="0dp"-->
+                    <!--                android:minWidth="0dp"/>-->
+                    <TextView
+                        android:id="@+id/tvStore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Cyan1"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="0dp"
+                        android:text="مقادير جستجو"
+                        android:textColor="@color/White" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/WideLineSidePadding"
+                        android:paddingRight="@dimen/WideLineSidePadding">
+
+                        <fragment
+                            android:id="@+id/frDateFrom"
+                            android:name="com.oshanak.mobilemarket.Activity.Common.DateFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            tools:layout="@layout/fragment_date" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/WideLineSidePadding"
+                        android:paddingRight="@dimen/WideLineSidePadding">
+
+                        <fragment
+                            android:id="@+id/frDateTo"
+                            android:name="com.oshanak.mobilemarket.Activity.Common.DateFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            tools:layout="@layout/fragment_date" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingStart="@dimen/WideLineSidePadding"
+                    android:paddingLeft="@dimen/WideLineSidePadding"
+                    android:paddingEnd="@dimen/WideLineSidePadding"
+                    android:paddingRight="@dimen/WideLineSidePadding">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.8"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:padding="1dp"
+                            android:src="@drawable/icon_shop"
+                            android:tint="@color/HaftOrange" />
+
+                        <Spinner
+                            android:id="@+id/shopsListSpinner"
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:background="@drawable/edit_text_style_disable1"
+                            android:gravity="center_vertical"
+                            android:layoutDirection="rtl"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="3dp"
+                            android:paddingEnd="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="3dp"
+                            android:spinnerMode="dialog"
+                            android:textDirection="rtl" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtHeaderShop"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.15"
+                        android:fontFamily="@font/iransansbold"
+                        android:gravity="center|right"
+                        android:text="فروشگاه"
+                        android:textColor="@color/White" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:background="@color/Cyan1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingLeft="5dp"
+                        android:text=""
+                        android:textColor="@color/White" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="5dp"
+                        android:text="فهرست سفارش"
+                        android:textColor="@color/White" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/Gray3"
+                    android:choiceMode="singleChoice"
+                    android:clickable="true"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="6dp"
+                    android:fadeScrollbars="true"
+                    android:focusable="true"
+                    android:padding="6dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    tools:context=".Activity.Activity.PickingControlHeaderActivity"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="0dp"-->
+<!--    android:layoutDirection="ltr">-->
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="0dp"-->
+<!--        android:layout_marginBottom="0dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:background="@color/Cyan1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginTop="0dp">-->
+<!--            <ImageButton-->
+<!--                android:id="@+id/ibMinimize"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:background="?selectableItemBackgroundBorderless"-->
+<!--                android:padding="3dp"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                app:srcCompat="@drawable/arrow_up"-->
+<!--                android:minHeight="0dp"-->
+<!--                android:minWidth="0dp"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvMoreParam"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="بیشتر"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="0dp"-->
+<!--                android:textColor="@color/Yellow"-->
+<!--                android:paddingRight="0dp"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvStore"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="right"-->
+<!--                android:text="مقادير جستجو"-->
+<!--                android:textColor="@color/White"-->
+<!--                android:background="@color/Cyan1"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:paddingRight="5dp"-->
+<!--                android:paddingTop="0dp"-->
+<!--                android:paddingBottom="0dp"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="50"-->
+<!--            android:paddingLeft="@dimen/WideLineSidePadding"-->
+<!--            android:paddingRight="@dimen/WideLineSidePadding"-->
+<!--            android:paddingTop="10dp">-->
+<!--            <EditText-->
+<!--                android:id="@+id/etStore"-->
+<!--                style="@style/EditTextStyleNormal1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="70"-->
+<!--                android:ems="10"-->
+<!--                android:inputType="number"-->
+<!--                android:maxLines="1"-->
+<!--                android:maxLength="4"-->
+<!--                android:text=""-->
+<!--                android:gravity="center"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="30"-->
+<!--                android:text="فروشگاه*"-->
+<!--                android:gravity="right"-->
+<!--                android:paddingLeft="5dp"/>-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:id="@+id/lParamValues"-->
+<!--            android:paddingBottom="10dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:paddingLeft="@dimen/WideLineSidePadding"-->
+<!--                android:paddingRight="@dimen/WideLineSidePadding"-->
+<!--                android:layout_marginTop="5dp">-->
+<!--                <fragment-->
+<!--                    android:id="@+id/frDateFrom"-->
+<!--                    android:name="com.oshanak.mobilemarket.Activity.Common.DateFragment"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    tools:layout="@layout/fragment_date" />-->
+<!--            </LinearLayout>-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:paddingLeft="@dimen/WideLineSidePadding"-->
+<!--                android:paddingRight="@dimen/WideLineSidePadding"-->
+<!--                android:layout_marginTop="10dp">-->
+<!--                <fragment-->
+<!--                    android:id="@+id/frDateTo"-->
+<!--                    android:name="com.oshanak.mobilemarket.Activity.Common.DateFragment"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    tools:layout="@layout/fragment_date" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_marginTop="0dp"-->
+<!--        android:padding="0dp">-->
+<!--        <LinearLayout-->
+<!--            android:background="@color/Cyan1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_margin="0dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvCount"-->
+<!--                android:textColor="@color/White"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                android:gravity="right"-->
+<!--                android:paddingLeft="5dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="فهرست سفارشهای جمع آوری"-->
+<!--                android:gravity="right"-->
+<!--                android:paddingRight="5dp"-->
+<!--                android:textColor="@color/White"/>-->
+<!--        </LinearLayout>-->
+<!--        <ListView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/recyclerview"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:fadeScrollbars="true"-->
+<!--            android:choiceMode="singleChoice"-->
+<!--            android:padding="@dimen/ListViewPadding"-->
+<!--            android:divider="@android:color/transparent"-->
+<!--            android:dividerHeight="@dimen/ListViewDividerHeight"-->
+<!--            android:background="@color/Gray3"/>-->
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->

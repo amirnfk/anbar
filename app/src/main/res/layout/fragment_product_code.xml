@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="0dp"
+    tools:context=".Activity.Common.ProductCodeFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="0dp">
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="باركد يا كد كالا *"-->
+<!--            android:gravity="right"-->
+<!--            android:paddingLeft="0dp"/>-->
+
+        <EditText
+            style="@style/EditTextStyleNormal1"
+            android:id="@+id/etFrgBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="40"
+            android:text=""
+            android:textAlignment="center"
+            android:hint="باركد يا كد كالا را وارد كنيد..."
+            android:tag="" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="@dimen/WideLineSidePadding"
+        android:paddingRight="@dimen/WideLineSidePadding">
+
+        <ImageButton
+            android:id="@+id/bDelete"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/delete3"
+            android:layout_marginRight="10dp"/>
+        <ImageButton
+            android:id="@+id/bConfirm"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/checkmark2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageButton
+            android:id="@+id/bAutoScan"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/autooff"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageButton
+            android:id="@+id/bCamera"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/barcode_normal" />
+
+        <ImageButton
+            android:id="@+id/bSearcByName"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/search_normal" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/ListViewPaddingRight"
+    android:paddingLeft="5dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="عنوان كالا"
+            android:gravity="right">
+        </TextView>
+        <TextView
+            android:id="@+id/tvRowCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="شماره:"
+            android:gravity="right"
+            android:layout_marginLeft="5dp">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+<!--        <Button-->
+<!--            android:text="حذف"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/bDelete"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:background="?selectableItemBackgroundBorderless"-->
+<!--            android:textColor="@color/Green"-->
+<!--            android:drawableRight="@drawable/delete1"-->
+<!--            android:gravity="right|center"-->
+<!--            android:drawablePadding="@dimen/ListViewButtonDrawablePadding"-->
+<!--            android:paddingRight="@dimen/ListViewButtonSidePadding"-->
+<!--            android:paddingLeft="@dimen/ListViewButtonSidePadding"-->
+<!--            android:minHeight="0dp"-->
+<!--            android:minWidth="0dp"/>-->
+<!--        <Button-->
+<!--            android:text="انتخاب"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/bSelect"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:background="?selectableItemBackgroundBorderless"-->
+<!--            android:textColor="@color/Green"-->
+<!--            android:drawableRight="@drawable/plus1"-->
+<!--            android:gravity="right|center"-->
+<!--            android:drawablePadding="@dimen/ListViewButtonDrawablePadding"-->
+<!--            android:paddingRight="@dimen/ListViewButtonSidePadding"-->
+<!--            android:paddingLeft="@dimen/ListViewButtonSidePadding"-->
+<!--            android:minHeight="0dp"-->
+<!--            android:minWidth="0dp"/>-->
+        <ImageButton
+            android:id="@+id/bSelect"
+            android:layout_width="@dimen/StoreListViewButtonSize"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/insert1"
+            android:layout_marginLeft="@dimen/ListViewButtonSidePadding"
+            android:layout_marginRight="@dimen/ListViewButtonSidePadding" />
+
+
+    </LinearLayout>
+</LinearLayout>

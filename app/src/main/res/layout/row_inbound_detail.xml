@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/ListViewPaddingRight"
+    android:paddingLeft="5dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="عنوان كالا"
+            android:gravity="right"
+            android:textColor="@color/Black">
+        </TextView>
+        <!--        <TextView-->
+        <!--            android:id="@+id/tvArticleCode"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="كد"-->
+        <!--            android:gravity="right"-->
+        <!--            android:textColor="@color/Black"-->
+        <!--            android:layout_marginLeft="5dp"-->
+        <!--            android:layout_marginRight="5dp">-->
+        <!--        </TextView>-->
+        <TextView
+            android:id="@+id/tvRowCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="شماره:"
+            android:gravity="right"
+            android:layout_marginLeft="5dp">
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_marginTop="1dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvUMREZ"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="تعداد در جعبه:"
+            android:gravity="right">
+        </TextView>
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="تعداد تحويل:"
+            android:gravity="right">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:drawableRight="@drawable/checkmark"
+            android:drawablePadding="@dimen/ListViewButtonDrawablePadding"
+            android:gravity="right|center"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="@dimen/ListViewButtonSidePadding"
+            android:paddingRight="20dp"
+            android:text=""
+            android:textColor="@color/Green" />
+
+        <Button
+            android:id="@+id/bEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:drawableRight="@drawable/edit2"
+            android:drawablePadding="@dimen/ListViewButtonDrawablePadding"
+            android:gravity="right|center"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="@dimen/ListViewButtonSidePadding"
+            android:paddingRight="@dimen/ListViewButtonSidePadding"
+            android:text=""
+            android:textColor="@color/Green" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/bDelete"
+            android:layout_width="@dimen/StoreListViewButtonSize"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ListViewButtonSidePadding"
+            android:layout_marginRight="@dimen/ListViewButtonSidePadding"
+            android:adjustViewBounds="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:srcCompat="@drawable/delete2" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

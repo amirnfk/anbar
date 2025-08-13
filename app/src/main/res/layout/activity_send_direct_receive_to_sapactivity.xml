@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Activity.SendDirectReceiveToSAPActivity">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.SendDirectReceiveToSAPActivity"
+    android:background="@color/Gray4"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+<!--        <View-->
+<!--            style="@style/Divider2"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/WideLineSidePadding"
+            android:paddingLeft="@dimen/WideLineSidePadding">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_marginLeft="0dp"
+                android:text="شماره فاكتور"
+                android:textColor="@color/Gray"
+                android:layout_marginTop="0dp"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    style="@style/EditTextStyleNormal1"
+                    android:id="@+id/etInvoiceNo1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="49"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:selectAllOnFocus="true"
+                    android:gravity="center"
+                    android:layout_marginRight="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:text=" - "
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="0dp"/>
+                <EditText
+                    style="@style/EditTextStyleNormal1"
+                    android:id="@+id/etInvoiceNo2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="49"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:selectAllOnFocus="true"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button_back2"
+                    android:onClick="onClickExit"
+                    android:text="خروج"
+                    android:textColor="@drawable/button_back2" />
+
+                <Button
+                    android:id="@+id/bConfirm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/button_back2"
+                    android:onClick="onClickConfirm"
+                    android:text="ارسال"
+                    android:textColor="@drawable/button_back2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

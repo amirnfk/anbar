@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mnuSend"
+        android:title="ارسال"
+        app:showAsAction="always"
+        android:icon="@drawable/send1"/>
+<!--    <item-->
+<!--        android:id="@+id/overflowMenu"-->
+<!--        android:icon="@drawable/send1"-->
+<!--        android:title=""-->
+<!--        app:showAsAction="always">-->
+
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/menuWithIconText"-->
+<!--                android:icon="@drawable/send1"-->
+<!--                android:title="تست"-->
+<!--                />-->
+<!--        </menu>-->
+<!--    </item>-->
+    <item android:id="@+id/mnuExit"
+        android:title="خروج"
+        app:showAsAction="never"/>
+</menu>

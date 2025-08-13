@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bItems"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="?attr/selectableItemBackground"
+    android:layoutDirection="ltr"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_Item_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/blue_200"
+            android:fontFamily="@font/iransansregular"
+            android:gravity="center"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:text="یخچالی"
+            android:textColor="@color/White"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:orientation="vertical"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_marginTop="1dp"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/iransansregular"
+                    android:gravity="left"
+                    android:text="تاريخ"
+                    android:textColor="@color/Black"></TextView>
+
+                <TextView
+                    android:id="@+id/tvDocNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/iransansbold"
+                    android:gravity="right"
+                    android:text="شماره:"
+                    android:textColor="@color/Black"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_marginTop="1dp"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/bEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="6dp"
+                    android:adjustViewBounds="true"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:clickable="false"
+                    android:padding="0dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/list2" />
+
+                <ImageButton
+                    android:id="@+id/bSendToSAP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_margin="6dp"
+                    android:adjustViewBounds="true"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:onClick="onRemoveCompetitorCompany"
+                    android:padding="6dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sendsap" />
+
+                <ProgressBar
+                    android:id="@+id/prg_control_header"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="6dp"
+                    android:padding="6dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvItemCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="تعداد نوع اقلام: "
+                        android:visibility="gone"></TextView>
+
+                    <TextView
+                        android:id="@+id/tvStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"></TextView>
+
+                    <TextView
+                        android:id="@+id/tvStoreId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:fontFamily="@font/iransansregular"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:textColor="@color/Black"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/img_info_control_header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@drawable/background_pressed"
+            android:padding="3dp"
+            android:tint="@color/HaftOrange"
+            app:srcCompat="@drawable/acute" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+    <!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:descendantFocusability="blocksDescendants"-->
+<!--        android:gravity="right"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="5dp">-->
+<!--        <Button-->
+<!--            android:text=""-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:id="@+id/bItems"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:background="?selectableItemBackgroundBorderless"-->
+<!--            android:textColor="@color/Green"-->
+<!--            android:drawableRight="@drawable/list2"-->
+<!--            android:gravity="right|center"-->
+<!--            android:drawablePadding="@dimen/ListViewButtonDrawablePadding"-->
+<!--            android:paddingRight="@dimen/ListViewButtonSidePadding"-->
+<!--            android:paddingLeft="@dimen/ListViewButtonSidePadding"-->
+<!--            android:minHeight="0dp"-->
+<!--            android:minWidth="0dp"/>-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/bItems"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="40dp"-->
+<!--            app:srcCompat="@drawable/list2"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:background="?selectableItemBackgroundBorderless"-->
+<!--            android:onClick="onRemoveCompetitorCompany"-->
+<!--            android:padding="0dp"/>-->
+<!--    </LinearLayout>-->

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Activity.ColleaguePresentationActivity"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layoutDirection="ltr">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="شما در محدوده مجاز از فروشگاه 1001 قرار نداريد. لطفاً در محل مجاز مستقر شويد."
+        android:gravity="right"
+        android:textColor="@color/Red"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="فاصله شما تا فروشگاه 1001 به اندازه 2،451 متر مي باشد."
+        android:gravity="right" />
+    <View
+        style="@style/Divider2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:text="ثبت اثر انگشت"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center"
+        android:background="@drawable/button_back2"
+        android:layout_margin="0dp"
+        android:textColor="@drawable/button_back2"
+        android:drawableLeft="@drawable/fingerprint2"
+        android:paddingTop="@dimen/WideButtonPaddingTop"
+        android:paddingBottom="@dimen/WideButtonPaddingBottom"
+        android:paddingLeft="@dimen/WideButtonPaddingLeft"
+        android:paddingRight="@dimen/WideButtonPaddingRight"
+        android:onClick="onFingerPrint"/>
+    <View
+        style="@style/Divider2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:text="ثبت تصوير چهره با اطلاعات مكاني"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center"
+        android:background="@drawable/button_back2"
+        android:layout_margin="0dp"
+        android:textColor="@drawable/button_back2"
+        android:drawableLeft="@drawable/geoperson"
+        android:paddingTop="@dimen/WideButtonPaddingTop"
+        android:paddingBottom="@dimen/WideButtonPaddingBottom"
+        android:paddingLeft="@dimen/WideButtonPaddingLeft"
+        android:paddingRight="@dimen/WideButtonPaddingRight"
+        android:onClick="onFingerPrint"/>
+    <View
+        style="@style/Divider2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etUserName"
+                style="@style/EditTextStyleNormal1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="75"
+                android:ems="10"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:gravity="start"
+                android:paddingLeft="5dp"
+                android:text="نام كاربري" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/etPassword"
+                style="@style/EditTextStyleNormal1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="75"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:maxLength="35"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:gravity="start"
+                android:paddingLeft="5dp"
+                android:text="کلمه عبور" />
+        </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="ثبت حضور"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/button_back2"
+        android:textColor="@drawable/button_back2"
+        android:onClick="onFingerPrint"/>
+</LinearLayout>
